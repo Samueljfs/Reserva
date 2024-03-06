@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    background-image: url(img/pousada.jpg)
+  }
+  
+  .container {
+    max-width: 400px;
+    width: 90%;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  input[type="tel"] {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+
+  
+  .contact-form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .contact-form h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+  }
+
+  .input-group {
+    margin-bottom: 15px;
+  }
+  
+  .input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: maroon;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .header {
+   text-align: right;
+    padding: 15px;
+    background-color:rgba(68, 9, 9, 0);
+    color: #fff;
+    margin-top: -45%;
+    position: absolute;
+  }
+  
+  .logo {
+    margin: 0;
+    font-size: 40px;
+    margin-bottom: 0px;
+    margin-left: 12px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  
+  @media screen and (max-width: 600px) {
+    .container {
+      width: 100%;
+      border-radius: 0;
+    }
+  }
+  .home .image img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+  }
+  .logo img {
+    width: 120px;
+  }
+  .butao {
+    padding: 10px;
+    background-color: #222222;
+    color: #DEB887;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.butao:hover {
+    background-color: #75390f;
+}

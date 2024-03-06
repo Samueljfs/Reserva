@@ -1,0 +1,248 @@
+#carouselImagens {
+	margin-top: 20px;
+  }
+  
+  #detalhes-acomodacao {
+	background-color: #fff;
+	padding: 40px 0;
+  }
+  
+  #detalhes-acomodacao h2 {
+	color: #3498db;
+  }
+  
+  #detalhes-acomodacao p {
+	margin-bottom: 20px;
+  }
+  
+  .cta-button {
+	display: inline-block;
+	padding: 10px;
+	background-color: #000000;
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+	border-radius: 5px;
+  }
+  
+  .butao {
+	padding: 10px;
+	background-color: #222222;
+	color: #DEB887;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+  }
+  
+  .butao:hover {
+	background-color: #75390f;
+  }
+  header img {
+width: 10%;
+
+}
+
+#carouselImagens {
+margin-top: 5%;
+width: 55%;
+}
+
+#detalhes-acomodacao {
+background-color: #fff;
+padding: 40px 0;}
+
+#detalhes-acomodacao h2 {
+color: #0a0a0a;
+margin-bottom: 15px;
+position: relative;
+left: 800px;
+top: -410px;
+
+}
+
+
+#detalhes-acomodacao p {
+margin-bottom: 15px;
+position: relative;
+left: 800px;
+top: -410px;
+
+}
+
+.cta-button {
+display: inline-block;
+padding: 10px;
+background-color: #3498db;
+color: #fff;
+text-decoration: none;
+font-weight: bold;
+border-radius: 5px;
+margin-bottom: 15px;
+position: relative;
+left: 800px;
+top: -410px;
+
+}
+
+footer {
+background-color: #333;
+color: #fff;
+text-align: center;
+padding: 20px 0;
+position: left;
+bottom: 0;
+width: 100%;
+}
+.butao {
+padding: 10px;
+background-color: #222222;
+color: #DEB887;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+position: absolute;
+top: 10px;
+left: 10px;
+}
+
+.butao:hover {
+background-color: #75390f;
+}
+
+header nav {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding-top: 20px;
+}
+
+.hambuger {
+display: none;
+}
+
+.bar {
+display: block;
+width: 25px;
+height: 3px;
+margin: 5px auto;
+transition: all 0.3s ease-in-out;
+background-color: #fff;
+}
+
+.start-header {
+opacity: 1;
+transform: translateY(0);
+padding: 20px 0;
+box-shadow: 0 10px 30px 0 rgba(138, 155, 165, 0.15);
+-webkit-transition : all 0.3s ease-out;
+transition : all 0.3s ease-out;
+}
+.start-header.scroll-on {
+box-shadow: 0 5px 10px 0 rgba(138, 155, 165, 0.15);
+padding: 10px 0;
+-webkit-transition : all 0.3s ease-out;
+transition : all 0.3s ease-out;
+}
+.start-header.scroll-on .navbar-brand img{
+height: 24px;
+-webkit-transition : all 0.3s ease-out;
+transition : all 0.3s ease-out;
+}
+.navigation-wrap{
+position: fixed;
+width: 100%;
+top: 0;
+left: 0;
+z-index: 1000;
+-webkit-transition : all 0.3s ease-out;
+transition : all 0.3s ease-out;
+}
+.navbar{
+padding: 0;
+margin-top: 30px;
+}
+
+.navbar-toggler {
+float: right;
+border: none;
+padding-right: 0;
+}
+.navbar-toggler:active,
+.navbar-toggler:focus {
+outline: none;
+}
+.navbar-light .navbar-toggler-icon {
+width: 24px;
+height: 17px;
+background-image: none;
+position: relative;
+border-bottom: 1px solid #000;
+transition: all 300ms linear;
+}
+.navbar-light .navbar-toggler-icon:after, 
+.navbar-light .navbar-toggler-icon:before{
+width: 24px;
+position: absolute;
+height: 1px;
+background-color: #000;
+top: 0;
+left: 0;
+content: '';
+z-index: 2;
+transition: all 300ms linear;
+}
+.navbar-light .navbar-toggler-icon:after{
+top: 8px;
+}
+.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:after {
+transform: rotate(45deg);
+}
+.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
+transform: translateY(8px) rotate(-45deg);
+}
+.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
+border-color: transparent;
+}
+.nav-link{
+color: #212121 !important;
+font-weight: 500;
+transition: all 200ms linear;
+}
+.nav-item:hover .nav-link{
+color: #C1B086  !important;
+}
+.nav-item.active .nav-link{
+color: #C1B086  !important;
+}
+.nav-link {
+position: relative;
+padding: 5px 0 !important;
+display: inline-block;
+}
+.nav-item:after{
+position: absolute;
+bottom: -5px;
+left: 0;
+width: 100%;
+height: 2px;
+content: '';
+background-color: #C1B086 ;
+opacity: 0;
+transition: all 200ms linear;
+}
+.nav-item:hover:after{
+bottom: 0;
+opacity: 1;
+}
+.nav-item.active:hover:after{
+opacity: 0;
+}
+.nav-item{
+position: relative;
+transition: all 200ms linear;
+}
+
+
